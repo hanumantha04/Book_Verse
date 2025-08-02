@@ -51,13 +51,13 @@ const Home = () => {
           className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg'
           onClick={() => setShowType('table')}
         >
-          TABLE
+          Table
         </button>
         <button
           className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg'
           onClick={() => setShowType('card')}
         >
-          CARD
+          Card
         </button>
       </div>
       <div className='flex justify-between items-center'>
